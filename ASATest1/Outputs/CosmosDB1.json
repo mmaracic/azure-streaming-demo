@@ -1,0 +1,13 @@
+{
+    "Name": "CosmosDB1",
+    "DataSourceType": "DocumentDB",
+    "DocumentDbProperties": {
+        "AccountId": "[Required]",
+        "AccountKey": null,
+        "Database": "[Required]",
+        "ContainerName": "[Required]",
+        "DocumentId": ""
+    },
+    "DataSourceCredentialDomain": null,
+    "ScriptType": "Output"
+}

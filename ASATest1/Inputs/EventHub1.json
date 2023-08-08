@@ -1,0 +1,21 @@
+{
+    "Name": "EventHub1",
+    "Type": "Data Stream",
+    "DataSourceType": "Event Hub",
+    "EventHubProperties": {
+        "ServiceBusNamespace": "[Required]",
+        "EventHubName": "[Required]",
+        "SharedAccessPolicyName": "[Required]",
+        "SharedAccessPolicyKey": null,
+        "ConsumerGroupName": "$Default",
+        "AuthenticationMode": "ConnectionString"
+    },
+    "DataSourceCredentialDomain": null,
+    "Serialization": {
+        "Type": "Json",
+        "Encoding": "UTF8"
+    },
+    "PartitionKey": null,
+    "CompressionType": "None",
+    "ScriptType": "Input"
+}
