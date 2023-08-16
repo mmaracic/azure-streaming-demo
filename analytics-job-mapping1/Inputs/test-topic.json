@@ -1,21 +1,21 @@
 {
-    "Name": "EventHub1",
+    "Name": "test-topic",
     "Type": "Data Stream",
     "DataSourceType": "Event Hub",
     "EventHubProperties": {
-        "ServiceBusNamespace": "[Required]",
-        "EventHubName": "[Required]",
-        "SharedAccessPolicyName": "[Required]",
+        "ServiceBusNamespace": "ml-test",
+        "EventHubName": "test-topic",
+        "SharedAccessPolicyName": null,
         "SharedAccessPolicyKey": null,
-        "ConsumerGroupName": "$Default",
-        "AuthenticationMode": "ConnectionString"
+        "ConsumerGroupName": "analytics-job-mapping1_test-topic_consumer_group",
+        "AuthenticationMode": "Msi"
     },
     "DataSourceCredentialDomain": null,
     "Serialization": {
         "Type": "Json",
         "Encoding": "UTF8"
     },
-    "PartitionKey": null,
+    "PartitionKey": "",
     "CompressionType": "None",
     "ScriptType": "Input"
 }

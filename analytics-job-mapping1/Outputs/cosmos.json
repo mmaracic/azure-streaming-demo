@@ -1,0 +1,13 @@
+{
+    "Name": "cosmos",
+    "DataSourceType": "DocumentDB",
+    "DocumentDbProperties": {
+        "AccountId": "mm-db-cosmos-eu",
+        "AccountKey": null,
+        "Database": "ToDoList",
+        "ContainerName": "Items",
+        "DocumentId": "id"
+    },
+    "DataSourceCredentialDomain": "2b84db57-e4b4-4cb5-b941-eb05c1cc4da9.StreamAnalystics",
+    "ScriptType": "Output"
+}

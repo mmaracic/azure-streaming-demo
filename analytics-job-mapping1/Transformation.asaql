@@ -1,0 +1,6 @@
+SELECT
+    *
+INTO
+    [cosmos]
+FROM
+    [test-topic]

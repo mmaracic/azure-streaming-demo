@@ -1,17 +1,17 @@
 {
-    "name": "ASATest1",
-    "startFile": "ASATest1.asaql",
+    "name": "analytics-job-mapping1",
+    "startFile": "Transformation.asaql",
     "configurations": [
         {
             "filePath": "JobConfig.json",
             "subType": "JobConfig"
         },
         {
-            "filePath": "Inputs/EventHub1.json",
+            "filePath": "Inputs/test-topic.json",
             "subType": "Input"
         },
         {
-            "filePath": "Outputs/CosmosDB1.json",
+            "filePath": "Outputs/cosmos.json",
             "subType": "Output"
         }
     ]

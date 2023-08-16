@@ -2,6 +2,10 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"name": "analytics-job-mapping1",
+			"path": "analytics-job-mapping1"
 		}
 	],
 	"settings": {}

@@ -10,7 +10,7 @@
         "StreamingUnits": "1"
     },
     "CompatibilityLevel": "1.2",
-    "UseSystemAssignedIdentity": false,
+    "UseSystemAssignedIdentity": true,
     "GlobalStorage": {
         "AccountName": null,
         "AccountKey": null,
@@ -21,7 +21,7 @@
         "AccountName": null,
         "AccountKey": null,
         "ContainerName": null,
-        "Path": "UserCustomCode.zip"
+        "Path": null
     },
     "VirtualNetworkConfiguration": {
         "VirtualNetworkName": null,
