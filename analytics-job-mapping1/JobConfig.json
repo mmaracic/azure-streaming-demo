@@ -1,7 +1,7 @@
 {
     "ScriptType": "JobConfig",
     "DataLocale": "en-US",
-    "OutputErrorPolicy": "Retry",
+    "OutputErrorPolicy": "Drop",
     "EventsLateArrivalMaxDelayInSeconds": 5,
     "EventsOutOfOrderMaxDelayInSeconds": 0,
     "EventsOutOfOrderPolicy": "Adjust",

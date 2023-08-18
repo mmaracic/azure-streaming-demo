@@ -33,9 +33,11 @@ Data errors on inputs or outputs:
 https://learn.microsoft.com/en-us/azure/stream-analytics/data-errors
 
 
-# Azure Stream Upload
+# Azure Stream Download and Upload
 The jobs that exist on Azure can be exported to local machine:  
 https://learn.microsoft.com/en-us/azure/stream-analytics/visual-studio-code-explore-jobs#export-job-to-local-machine
+# Azure Stream Error Handling
+OutputErrorPolicy has to be "Drop", not "Retry", in order not to endlessly retry corrupted messages and increase cost.
 
 # Azure Stream Cosmos DB as output
 To be able store an output object to Cosmos DB the object/document has to contain two fields: id and partitionKey as above.  

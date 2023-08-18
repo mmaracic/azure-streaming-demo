@@ -6,8 +6,9 @@
         "AccountKey": null,
         "Database": "ToDoList",
         "ContainerName": "Items",
-        "DocumentId": "id"
+        "DocumentId": "id",
+        "AuthenticationMode": "Msi"
     },
-    "DataSourceCredentialDomain": "2b84db57-e4b4-4cb5-b941-eb05c1cc4da9.StreamAnalystics",
+    "DataSourceCredentialDomain": "c5bfdc88-fa43-4268-8ced-c71806bc10e6.StreamAnalystics",
     "ScriptType": "Output"
 }
