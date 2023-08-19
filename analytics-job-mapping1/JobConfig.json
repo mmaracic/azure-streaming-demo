@@ -2,9 +2,9 @@
     "ScriptType": "JobConfig",
     "DataLocale": "en-US",
     "OutputErrorPolicy": "Drop",
-    "EventsLateArrivalMaxDelayInSeconds": 5,
+    "EventsLateArrivalMaxDelayInSeconds": 0,
     "EventsOutOfOrderMaxDelayInSeconds": 0,
-    "EventsOutOfOrderPolicy": "Adjust",
+    "EventsOutOfOrderPolicy": "Drop",
     "Sku": {
         "Name": "StandardV2",
         "StreamingUnits": "1"

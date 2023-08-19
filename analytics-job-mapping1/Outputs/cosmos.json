@@ -9,6 +9,6 @@
         "DocumentId": "id",
         "AuthenticationMode": "Msi"
     },
-    "DataSourceCredentialDomain": "c5bfdc88-fa43-4268-8ced-c71806bc10e6.StreamAnalystics",
+    "DataSourceCredentialDomain": "781b672d-9aff-412e-85c0-e67398e9fa6a.StreamAnalystics",
     "ScriptType": "Output"
 }
